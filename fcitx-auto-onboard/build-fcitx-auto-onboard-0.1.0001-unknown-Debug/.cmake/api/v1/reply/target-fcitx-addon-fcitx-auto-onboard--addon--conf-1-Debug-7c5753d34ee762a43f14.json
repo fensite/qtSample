@@ -1,0 +1,94 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"__fcitx_addon_config_file",
+			"fcitx_add_addon_full"
+		],
+		"files" : 
+		[
+			"/usr/share/cmake/fcitx/FcitxMacro.cmake",
+			"src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 368,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 476,
+				"parent" : 2
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "fcitx-parse-pos.dependency::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "fcitx-addon-fcitx-auto-onboard--addon--conf-1::@145eef247bfb46b6828c",
+	"name" : "fcitx-addon-fcitx-auto-onboard--addon--conf-1",
+	"paths" : 
+	{
+		"build" : "src",
+		"source" : "src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/zhaikn/kylin/samples/fcitx-auto-onboard/build-fcitx-auto-onboard-0.1.0001-unknown-Debug/src/CMakeFiles/fcitx-addon-fcitx-auto-onboard--addon--conf-1",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/zhaikn/kylin/samples/fcitx-auto-onboard/build-fcitx-auto-onboard-0.1.0001-unknown-Debug/src/CMakeFiles/fcitx-addon-fcitx-auto-onboard--addon--conf-1.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/zhaikn/kylin/samples/fcitx-auto-onboard/build-fcitx-auto-onboard-0.1.0001-unknown-Debug/src/fcitx-auto-onboard.conf.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,26 @@
+Source: fcitx-auto-onboard
+Section: utils
+Priority: optional
+Maintainer: Aron Xu <happyaron@ubuntu.com>
+Build-Depends: debhelper (>= 9), cmake, intltool, pkg-config,
+ fcitx-libs-dev (>= 1:4.2.8), fcitx-bin,libdbus-1-dev
+Standards-Version: 3.9.5
+Homepage: http://code.google.com/p/fcitx
+
+Package: fcitx-module-auto-onboard
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, fcitx-bin, 
+  fcitx-data (>= 1:4.2.8), fcitx-modules
+Recommends: fcitx (>= 1:4.2.8)
+Breaks: fcitx (<< 1:4.2.8)
+Description: fcitx module auto onboard
+
+Package: fcitx-auto-onboard-dbg
+Architecture: any
+Section: debug
+Priority: extra
+Depends: fcitx-module-auto-onboard (= ${binary:Version}),
+ ${misc:Depends}
+Recommends: fcitx (>= 1:4.2.8)
+Breaks: fcitx (<< 1:4.2.8)
+Description: fcitx module auto onboard

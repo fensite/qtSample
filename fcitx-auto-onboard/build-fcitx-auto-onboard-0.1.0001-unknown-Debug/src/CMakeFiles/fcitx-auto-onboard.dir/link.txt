@@ -1,0 +1,1 @@
+/usr/bin/gcc -fPIC -g -O0 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -fvisibility=hidden  -g -Wl,--as-needed  -shared  -o fcitx-auto-onboard.so CMakeFiles/fcitx-auto-onboard.dir/auto-onboard.c.o 

@@ -1,0 +1,214 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				},
+				{
+					"build" : "src",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "fcitx-auto-onboard",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "fcitx-addon-fcitx-auto-onboard--addon--conf-1::@145eef247bfb46b6828c",
+					"jsonFile" : "target-fcitx-addon-fcitx-auto-onboard--addon--conf-1-Debug-7c5753d34ee762a43f14.json",
+					"name" : "fcitx-addon-fcitx-auto-onboard--addon--conf-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "fcitx-addon-fcitx-auto-onboard--addon--desc-1::@145eef247bfb46b6828c",
+					"jsonFile" : "target-fcitx-addon-fcitx-auto-onboard--addon--desc-1-Debug-bb49a958317a4198e0d4.json",
+					"name" : "fcitx-addon-fcitx-auto-onboard--addon--desc-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "fcitx-addon-fcitx-auto-onboard--headers-1::@145eef247bfb46b6828c",
+					"jsonFile" : "target-fcitx-addon-fcitx-auto-onboard--headers-1-Debug-7ecb6afcbae591740b4f.json",
+					"name" : "fcitx-addon-fcitx-auto-onboard--headers-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fcitx-addon-translation-handler-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fcitx-addon-translation-handler-1-Debug-ad7cd15bb4141dccf906.json",
+					"name" : "fcitx-addon-translation-handler-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fcitx-addon-translation-handler-2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fcitx-addon-translation-handler-2-Debug-0f7dfeafb5fdcc620076.json",
+					"name" : "fcitx-addon-translation-handler-2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fcitx-addon-translation-handler-3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fcitx-addon-translation-handler-3-Debug-753ca88d6944c4b2c019.json",
+					"name" : "fcitx-addon-translation-handler-3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fcitx-addon-translation-handler-4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fcitx-addon-translation-handler-4-Debug-149b76673324e8ead770.json",
+					"name" : "fcitx-addon-translation-handler-4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fcitx-addon-translation-handler-5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fcitx-addon-translation-handler-5-Debug-ad1ac44736818349d8e4.json",
+					"name" : "fcitx-addon-translation-handler-5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fcitx-addon-translation-handler-6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fcitx-addon-translation-handler-6-Debug-89c0ec9ebf891e982396.json",
+					"name" : "fcitx-addon-translation-handler-6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "fcitx-auto-onboard::@145eef247bfb46b6828c",
+					"jsonFile" : "target-fcitx-auto-onboard-Debug-b0a830a2ac9f6bd0c87a.json",
+					"name" : "fcitx-auto-onboard",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "fcitx-auto-onboard--addon::@145eef247bfb46b6828c",
+					"jsonFile" : "target-fcitx-auto-onboard--addon-Debug-73f32be4c40d2d2aecac.json",
+					"name" : "fcitx-auto-onboard--addon",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fcitx-extract-traslation.dependency::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fcitx-extract-traslation.dependency-Debug-e20d8dbd2df37ad84b29.json",
+					"name" : "fcitx-extract-traslation.dependency",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fcitx-modules.target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fcitx-modules.target-Debug-cbda2f98b2e5fc2f23a5.json",
+					"name" : "fcitx-modules.target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fcitx-parse-pos.dependency::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fcitx-parse-pos.dependency-Debug-610d26dad542e9efbf99.json",
+					"name" : "fcitx-parse-pos.dependency",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fcitx-scan-addons.target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fcitx-scan-addons.target-Debug-dd31646328b9da0331a5.json",
+					"name" : "fcitx-scan-addons.target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-eca0816ac2ce25e87035.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zhaikn/kylin/samples/fcitx-auto-onboard/build-fcitx-auto-onboard-0.1.0001-unknown-Debug",
+		"source" : "/home/zhaikn/kylin/samples/fcitx-auto-onboard/fcitx-auto-onboard-0.1.0001"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

@@ -1,0 +1,50 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"__fcitx_install_addon_desc",
+			"fcitx_add_addon_full"
+		],
+		"files" : 
+		[
+			"/usr/share/cmake/fcitx/FcitxMacro.cmake",
+			"src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 381,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 402,
+				"parent" : 2
+			}
+		]
+	},
+	"id" : "fcitx-addon-fcitx-auto-onboard--addon--desc-1::@145eef247bfb46b6828c",
+	"name" : "fcitx-addon-fcitx-auto-onboard--addon--desc-1",
+	"paths" : 
+	{
+		"build" : "src",
+		"source" : "src"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,12 @@
+generic /usr/share/cmake/fcitx/fcitx-extract-gettext.sh
+gettext /usr/share/cmake/fcitx/fcitx-extract-gettext.sh
+generic /usr/share/cmake/fcitx/fcitx-extract-desktop.sh
+desktop /usr/share/cmake/fcitx/fcitx-extract-desktop.sh
+generic /usr/share/cmake/fcitx/fcitx-extract-confdesc.sh
+confdesc /usr/share/cmake/fcitx/fcitx-extract-confdesc.sh
+generic /usr/share/cmake/fcitx/fcitx-extract-po.sh
+po /usr/share/cmake/fcitx/fcitx-extract-po.sh
+generic /usr/share/cmake/fcitx/fcitx-extract-qt.sh
+qt /usr/share/cmake/fcitx/fcitx-extract-qt.sh
+generic /usr/share/cmake/fcitx/fcitx-extract-kde.sh
+kde /usr/share/cmake/fcitx/fcitx-extract-kde.sh

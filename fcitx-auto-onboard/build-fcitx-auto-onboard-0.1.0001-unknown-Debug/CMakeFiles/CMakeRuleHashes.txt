@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+f7bb37c25f3e51c1d95ce88a735e737c CMakeFiles/fcitx-addon-translation-handler-1
+f7bb37c25f3e51c1d95ce88a735e737c CMakeFiles/fcitx-addon-translation-handler-2
+f7bb37c25f3e51c1d95ce88a735e737c CMakeFiles/fcitx-addon-translation-handler-3
+f7bb37c25f3e51c1d95ce88a735e737c CMakeFiles/fcitx-addon-translation-handler-4
+f7bb37c25f3e51c1d95ce88a735e737c CMakeFiles/fcitx-addon-translation-handler-5
+f7bb37c25f3e51c1d95ce88a735e737c CMakeFiles/fcitx-addon-translation-handler-6
+d7f9a20be8eafe169af97d7509411556 CMakeFiles/uninstall
+d786cc900ae671bfea13c7dab4e548a0 src/CMakeFiles/fcitx-addon-fcitx-auto-onboard--addon--conf-1
+babdeb9321c0323113531ddc71e30b99 src/fcitx-auto-onboard.conf
