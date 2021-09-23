@@ -7,6 +7,8 @@
 
 #include "mainwindow.h"
 
+#include "loadingAnimation/newtonCradle/ball.h"
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
 {
@@ -37,9 +39,12 @@ void MainWindow::initUI()
     pb_opacity->setText("透明度效果");
     connect(pb_opacity, &QPushButton::clicked, this, &MainWindow::onOpacityWindow);
 
+    Ball *ball = new Ball(mainWidget);
+
     mainLaout->addWidget(pb_drop, Qt::AlignCenter);
     mainLaout->addWidget(pb_shake, Qt::AlignCenter);
     mainLaout->addWidget(pb_opacity, Qt::AlignCenter);
+    mainLaout->addWidget(ball, Qt::AlignCenter);
     mainWidget->adjustSize();
     mainWidget->setGeometry(width()/2 - mainWidget->width()/2, this->height()/2 - mainWidget->height()/2,
                             mainWidget->width(), mainWidget->height());

@@ -30,14 +30,36 @@ if(ANDROID)
   add_library(corningAnimation SHARED
     main.cpp
     mainwindow.cpp
+    loadingAnimation/newtonCradle/newtoncradle.cpp
+    loadingAnimation/newtonCradle/ball.cpp
+
     mainwindow.h
+    loadingAnimation/newtonCradle/newtoncradle.h
+    loadingAnimation/newtonCradle/ball.h
   )
 else()
   add_executable(corningAnimation
     main.cpp
     mainwindow.cpp
+    loadingAnimation/newtonCradle/newtoncradle.cpp
+    loadingAnimation/newtonCradle/ball.cpp
+
     mainwindow.h
+    loadingAnimation/newtonCradle/newtoncradle.h
+    loadingAnimation/newtonCradle/ball.h
   )
 endif()
 
 target_link_libraries(corningAnimation PRIVATE Qt5::Widgets)
+
+#qt5_wrap_cpp(newtonCradle_SRC
+#    loadingAnimation/newtonCradle/newtoncradle.h
+#    loadingAnimation/newtonCradle/ball.h
+#    )
+#set(newtonCradle_SRC
+#    ${newtonCradle_SRC}
+#    loadingAnimation/newtonCradle/newtoncradle.cpp
+#    loadingAnimation/newtonCradle/ball.cpp
+#    )
+#add_library(newtonCradle ${newtonCradle_SRC})
+#target_link_libraries(newtonCradle PRIVATE Qt5::Widgets)
